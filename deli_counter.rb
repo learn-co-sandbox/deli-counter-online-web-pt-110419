@@ -34,7 +34,7 @@ def take_a_number(store_deli, customer)
 end
 end
 
-def now_serving(another_deli, liner)
+def now_serving(another_deli)
   binding.pry 
   if another_deli == 0
     puts "There is nobody waiting to be served!"
