@@ -35,15 +35,10 @@ end
 end
 
 def now_serving(another_deli)
-  binding.pry 
   if another_deli == 0
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving: #{another_deli[0]}"
-  another_deli.shift
-# else
-  # another_deli << customer
-  
+    another_deli.shift
+  end
 end
-end
-end 
