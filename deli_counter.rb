@@ -39,8 +39,7 @@ def now_serving(another_deli)
   if another_deli == 0
     puts "There is nobody waiting to be served!"
   else
-    another_deli = []
-    another_deli.map.with_index do |line|
+    puts "Currently serving: #{another_deli[0]}"
   
 # else
   # another_deli << customer
